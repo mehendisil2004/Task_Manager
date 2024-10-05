@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rum Raisin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFD4D4;
+    padding: 10px;
+    justify-content: center;
+}
+
+.todolist {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    margin: 100px auto 100px;
+    padding: 50px 50px 65px; 
+    border-radius: 35px;
+    justify-content: center;
+}
+
+.todolist h2 {
+    align-items: center;
+    color: F05A7E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD4D4;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: #FFB6B9;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 15px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: url(./assets/uncheck.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: 8px;
+}
+
+ul li.check {
+    color: #b0acac;
+    text-decoration: line-through;
+}
+
+ul li.check::before {
+    background-image: url(./assets/check.png);
+}
+
+ul li span {
+    color: #b0acac;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+
+ul li span:hover {
+    color: #FFB6B9;
+}
