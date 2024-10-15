@@ -1,6 +1,6 @@
 # Task Manager
 
-⁺⋆୭💗⋆⁺ Task Manager is a simple yet powerful tool designed to help you stay organized and productive. Whether you're managing your daily tasks, planning a project, or just keeping track of things to do. ₊˚ʚ💗✧˚.
+Task Manager is a simple yet powerful tool designed to help you stay organized and productive. Whether you're managing your daily tasks, planning a project, or just keeping track of things to do. 
 
 ### Features
 - __Add New Tasks:__ Easily add tasks to your list by typing into the input box and clicking "Add". Each task is displayed in a clear and organized manner.
